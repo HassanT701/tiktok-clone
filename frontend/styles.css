@@ -1,0 +1,54 @@
+/* frontend/src/App.css */
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .upload-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .upload-form input {
+    margin-right: 10px;
+    padding: 8px;
+  }
+  
+  .video-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .video-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px;
+  }
+  
+  .video-info {
+    padding: 10px;
+  }
+  
+  .video-stats {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ff6b81;
+  }
